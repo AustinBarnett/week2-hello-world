@@ -5,11 +5,11 @@ print('1.) Spanish')
 print('2.) French')
 print('3.) German') 
 language = input ()
-if language == 'Spanish':
+if language == 'Spanish'or language == '1':
     print ('Hola amigo.')
-if language == 'French':
+if language == 'French'or language == '2':
     print ('Salut l ami')
-if language == 'German':
+if language == 'German'or language == '3':
     print ('Hallo Freund')
 print ('Exit')
 
